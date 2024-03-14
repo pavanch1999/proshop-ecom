@@ -6,6 +6,7 @@ import { useParams } from "react-router-dom";
 const ProductScreen = () => {
   const { id: productId } = useParams();
   const product = products.find((p) => p._id === productId);
+  console.log(product)
   return(
   <>
     <Link className="btn btn-light my-3" to="/">Go back</Link>
