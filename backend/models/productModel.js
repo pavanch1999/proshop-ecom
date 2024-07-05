@@ -58,7 +58,7 @@ user:{
     price:{
         type:Number,
         required:true,
-        default:0,
+        default:0.0,
     },
     countInStock:{
         type:Number,
