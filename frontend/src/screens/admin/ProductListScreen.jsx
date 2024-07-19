@@ -35,7 +35,7 @@ const ProductListScreen = () => {
                 <Button className="btn-sm m-3" onClick={createProductHandler}>
                     <FaEdit/> Create Product
                 </Button>
-            </Col>
+            </Col>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
         </Row>
         {loadingCreate && <Loader/>}
         {isLoading ? <Loader/>: error?<Message variant='danger'>{error}</Message>:(

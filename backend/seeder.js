@@ -24,7 +24,7 @@ const sampleProducts=products.map((product)=>{
 await Product.insertMany(sampleProducts);
 
 console.log('Data Imported!'.green.inverse);
-process.exit(1);
+process.exit();
 
 }catch(error){
 
